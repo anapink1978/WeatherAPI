@@ -1,5 +1,5 @@
 {
-  "name": "weather-qantas",
+  "name": "WeatherAPI",
   "version": "1.0.0",
   "description": "Weather Rest API Test",
   "main": "index.js",
