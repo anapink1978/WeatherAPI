@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+#reports
+/test-results/
+/playwright-report/
+
+# Environment variables
+.env
