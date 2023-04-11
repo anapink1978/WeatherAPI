@@ -1,0 +1,32 @@
+{
+  "name": "weather-qantas",
+  "version": "1.0.0",
+  "description": "Weather Rest API Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "weather": "npx playwright test weatherApi.spec.ts",
+    "html-report": "npx playwright show-report ./artifacts/test-results/html-report",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext ts --fix"
+  },
+  "keywords": [],
+  "author": "Ana Pinkhasik",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.2",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "dotenv": "^16.0.3",
+    "eslint": "8.28.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "convert-csv-to-json": "^2.0.0",
+    "csv-parse": "^5.3.6",
+    "playwright": "^1.32.2"
+  }
+}
