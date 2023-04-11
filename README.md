@@ -29,6 +29,8 @@ npm init playwright@latest
 npm install playwright
 ``` 
 
+### Add your own api key inside resources/data.json
+
 ## Test creation
 - Create Test scenario with extension spec.ts. 
 - UI test: add tests inside the folder tests
