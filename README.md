@@ -5,12 +5,12 @@ Playwright tool is used to test the REST API of the weather application.
 APIRequestContext class is used - it allows the test to make API calls and create asserations for various asspects of the HTTP response.
 Playwright’s built-in request function is used, which is an instance of APIRequestContext.
 
-## **Benefit of this framework **
+## **Benefit of this framework: **
 This Framework can be used for Frontend testing (UI) or/and API testing.
 This framework can be handy in cases of:
-    * Testing the server API
-    * Prepareing server side state before visiting the web application in a test
-    * Validate server side post-conditions after running some actions in the browser
+1. Testing the server API
+2. Prepareing server side state before visiting the web application in a test
+3. Validate server side post-conditions after running some actions in the browser
 
 ## **Supported Browsers** (If we want to integrate the Weather api tests with UI tests)
 1. Chrome - default browser
