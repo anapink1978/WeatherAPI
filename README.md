@@ -1,4 +1,4 @@
-# WEATHER-QANTAS
+# WEATHER API
 
 ## **Overview:**
 Playwright tool is used to test the REST API of the weather application.
